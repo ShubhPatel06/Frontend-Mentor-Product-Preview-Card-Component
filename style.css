@@ -90,6 +90,11 @@
   border: none;
 }
 
+.main .container .product-details .btn:hover {
+  cursor: pointer;
+  background-color: hsl(157, 37%, 18%);
+}
+
 .main .container .product-details .btn img {
   width: 1.2rem;
 }
@@ -97,4 +102,5 @@
 .main .container .product-details .btn .btn-text {
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
+  font-weight: 700;
 }
