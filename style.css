@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  width: 40rem;
+  width: 39.5rem;
   background-color: hsl(0, 0%, 100%);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -32,44 +32,44 @@ body {
 }
 
 .container .product-details {
-  padding: 2rem;
+  padding: 1.8rem;
 }
 
 .container .product-details .label {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  margin-top: 0.8rem;
-  margin-bottom: 1.4rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1.2rem;
   color: hsl(228, 12%, 48%);
 }
 
 .container .product-details .title {
   font-family: "Fraunces", serif;
   color: hsl(212, 21%, 14%);
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   line-height: 1.1;
   font-weight: 700;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .container .product-details .description {
   color: hsl(228, 12%, 48%);
-  font-size: 1.03rem;
+  font-size: 1rem;
   line-height: 1.2;
-  word-spacing: 0.1rem;
-  margin-bottom: 1.6rem;
+  word-spacing: 0.01rem;
+  margin-bottom: 1.4rem;
 }
 
 .container .product-details .prices {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.6rem;
 }
 
 .container .product-details .prices .new-price {
   font-family: "Fraunces", serif;
   color: hsl(158, 36%, 37%);
-  font-size: 2.3rem;
+  font-size: 2.1rem;
 }
 
 .container .product-details .prices .old-price {
